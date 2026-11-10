@@ -1,6 +1,7 @@
 import os
 from functools import wraps
-
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 from flask import (
     Flask,
